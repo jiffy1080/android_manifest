@@ -10,6 +10,10 @@
 
   <remote  name="github"
            fetch="git://github.com/" />
+           
+  <remote  name="cm"
+           fetch="git://github.com/CyanogenMod/" />
+           
 
   <default revision="refs/tags/android-4.0.4_r1.1"
            remote="aosp"
@@ -46,6 +50,7 @@
   <project path="device/samsung/captivatemtd" name="android_device_samsung_captivatemtd" remote="cna" revision="stock-4.0.4" />
   <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="cna" revision="stock-4.0.4" />
   <project path="device/samsung/crespo4g" name="android_device_samsung_crespo4g" remote="cna" revision="stock-4.0.4" />
+  <project path="device/samsung/epicmtd" name="android_device_samsung_epicmtd" remote="cm" revision="ics" />
   <project path="device/samsung/epic4gtouch" name="android_device_samsung_epic4gtouch" remote="cna" revision="stock-4.0.4" />
   <project path="device/samsung/fascinatemtd" name="android_device_samsung_fascinatemtd" remote="cna" revision="stock-4.0.4" />
   <project path="device/samsung/galaxys2" name="android_device_samsung_galaxys2" remote="cna" revision="stock-4.0.4" />
